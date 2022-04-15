@@ -11,12 +11,11 @@ export const Section = styled.div(
     max-width: 980px;
     padding: 10px 15px;
     background-color: var(--blue-light);
-    transition: 2s;
 
     section {
         display: flex;
         justify-content: space-between;
-        background-color: var(--grey);
+        background-color: ${checked ? "#D6D6D6" : "var(--grey)"};
         padding: 10px;
         margin: 2px;
         border: 1px solid #4f4f4f;

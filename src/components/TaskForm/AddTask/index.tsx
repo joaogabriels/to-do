@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Section } from "./styles";
 
 interface Props {
-  onSubmitTask: (taskDescription : string) => void;
+  onSubmitTask: (taskDescription: string) => void;
 }
 
 export function AddTask({ onSubmitTask }: Props) {

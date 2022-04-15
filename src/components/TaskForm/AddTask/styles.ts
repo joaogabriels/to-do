@@ -9,7 +9,7 @@ export const Section = styled.div`
   max-width: 980px;
 
   border: 1.75px solid #4f4f4f;
-  border-radius: 15px;
+  border-radius: 10px;
 
   background-color: var(--grey);
 

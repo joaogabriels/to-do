@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AddTask } from "./AddTask";
 import { TaskList } from "./TaskList";
 
@@ -26,6 +26,16 @@ export function TaskForm() {
     setTaskList(updatedTaskList.filter((item) => item.id !== id));
   };
   
+  useEffect(() => {
+    const data = localStorage.getItem("tasks")
+    if(data) {
+      setTaskList(JSON.parse(data));
+    }
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(taskList));
+  })
   
   return (
     <>

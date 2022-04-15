@@ -30,7 +30,7 @@ export function TaskList({ task, onDeleteTask }: Tasks) {
           <label>{task.description}</label>
         </div>
         <button type="button" onClick={() => handleDeleteButton(task.id)}>
-          <i className="fa-solid fa-trash-can"></i>
+          <i className="fa-solid fa-trash-can fa-lg"></i>
         </button>
       </section>
     </Section>
