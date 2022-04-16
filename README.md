@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# ToDo App
+<p align="center">
+ 📒 Organize sua rotina com o ToDo App! 🗓
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O ToDo App é uma solição para lista de tarefas online de código aberto. Sua função é ajudar na organização das tarefas do cotidiano, através de uma interface simplificada e intuitiva.
 
-## Available Scripts
+## Features
+- Possibilidade de adicionar um número de tarefas ilimitado
+- Marcar uma tarefa como concluída 
+- Apagar uma tarefa 
+- Tarefas salvas localmente de maneira automática
 
-In the project directory, you can run:
 
-### `yarn start`
+## Preview do projeto
+<div align="center">
+  <img src="ToDoAppPreview.gif" alt="project preview"/>
+</div>
+<div align="center">
+  <em>Link do layout: https://www.figma.com/file/3BwfRL9u2O0TKMIhBXVfMC/To-Do-List?node-id=0%3A1</em>
+</div>
+  
+## Tecnologias utilizadas: 
+  [React](https://reactjs.org/)</br>
+  [TypeScript](https://www.typescriptlang.org/)</br>
+  [Styled Components](https://styled-components.com/)</br>
+  [Axios](https://github.com/axios/axios)</br>
+  [Fontawesome](https://fontawesome.com/v5/docs/web/use-with/react)
+  
+## API utilizada
+Para tornar o site mais dinâmico a api [Advice Slip](https://api.adviceslip.com/) foi utilizada. Dessa forma, sempre que o usuário entrar na página uma frase motivacional, séria ou cômica, sera exibida na aplicação. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação e usabilidade
+1. Com o [git](https://git-scm.com/) instalado na sua máquina, cole o seguinte comando no terminal:
+```
+git clone https://github.com/joaogabriels/to-do
+```
+2. Abra o diretório onde a pasta foi instalada e execute um dos seguintes comandos no terminal (é necessário a instalação do [NodeJS](https://nodejs.org/en/)):
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Npx
+```
+npx init
+```
+Npm
+```
+npm init
+```
+Yarn
+```
+yarn init
+```
+3. Para executar a aplicação é necessário executar, dentro do diretório, um dos seguintes comandos no terminal:
 
-### `yarn test`
+Npm
+```
+npm start
+```
+Yarn
+```
+yarn start
+```
+<br>
+Após esses passos a aplicação será executada através de um "localhost"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Criado por João Gabriel Dos Santos Evangelista 
